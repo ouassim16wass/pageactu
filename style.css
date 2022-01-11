@@ -1,0 +1,205 @@
+/*barre de navigation*/
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+   
+    top: 0px;
+  }
+  nav h1 {
+    font-size: 20px;
+  }
+  nav .onglet {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  nav .onglet p {
+    font-size: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  nav .onglet input {
+    margin: 8px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #f2f2f2;
+  }
+  .contain{
+      margin-top: 650px;
+      position: absolute;
+      width: 350px;
+      height: 550px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  }
+  .carta{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      transform-style: preserve-3d;
+      transition: all 0.5s ease;
+  }
+  .devant{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      background-color: black;
+     color: #f2f2f2;
+     text-align: center;
+     font-family: sans-serif;
+  border-radius: 20px;
+    }
+    .der{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        background-color: black;
+        color: #f2f2f2;
+        transform: rotateY(180deg);
+        border-radius: 20px;
+    }
+    .carta:hover{
+        transform: rotateY(180deg);
+    }
+    .containt{
+        margin-top: 650px;
+        position: absolute;
+        width: 350px;
+        height: 550px;
+        top: 50%;
+        left: 20%;
+        transform: translate(-50%,-50%);
+    }
+    .cartat{
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        transform-style: preserve-3d;
+        transition: all 0.5s ease;
+    }
+    .devantt{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        background-color: black;
+       color: #f2f2f2;
+       text-align: center;
+       font-family: sans-serif;
+    border-radius: 20px;
+      }
+      .dert{
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          backface-visibility: hidden;
+          background-color: black;
+          color: #f2f2f2;
+          transform: rotateY(180deg);
+          border-radius: 20px;
+      }
+      .cartat:hover{
+          transform: rotateY(180deg);
+      }
+      .containtt{
+      margin-top: 650px;
+      position: absolute;
+      width: 350px;
+      height: 550px;
+      top: 50%;
+      left: 80%;
+      transform: translate(-50%,-50%);
+  }
+  .cartatt{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      transform-style: preserve-3d;
+      transition: all 0.5s ease;
+  }
+  .devanttt{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      background-color: black;
+     color: #f2f2f2;
+     text-align: center;
+     font-family: sans-serif;
+  border-radius: 20px;
+    }
+    .dertt{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        background-color: black;
+        color: #f2f2f2;
+        transform: rotateY(180deg);
+        border-radius: 20px;
+    }
+    .cartatt:hover{
+        transform: rotateY(180deg);
+    }
+    button{
+        border-radius: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-left: 500px;
+    }
+    button:hover{
+        transform: scale(1.3);
+        background-color: floralwhite;
+        color: white;
+        cursor: pointer;
+    }
+   
+  
+   
+    a{
+        text-decoration: none;
+        color: black;
+    }
+   
+   
+     
+   .co{
+       background-color: rgba(128, 128, 128, 0.493);
+       border-radius: 10px;
+   }
+   iframe{
+       margin-left: 300px;
+   }
+    
+   
+     .id h1{
+     font-family: sans-serif;
+    }
+    .card:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    #id{
+        width: 250px;
+        height: 400px;
+    }
+    .zz{
+        border-radius: 10px;
+    }
+    .dakhel{
+        border-radius: 5px;
+    }
+    #image:hover{
+        transform: scale(1);
+        cursor: pointer;
+    }
+    .foot{
+        border-radius: 20px;
+    }

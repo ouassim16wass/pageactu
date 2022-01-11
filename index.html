@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>DZAIPHONE</title>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="icon" href="./assets/img/vueLogo.png" type="image/png" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+  <link href="./assets/style/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="app">
+
+    <nav>
+      <router-link to="/" style="text-decoration: none;color: black;">
+        <h1>DZAIPHONE</h1>
+      </router-link>
+      <div class="onglet">
+        <router-link to="/Vente" style="text-decoration: none;color: black;">
+          <p class="link">Vente</p>
+        </router-link>
+        <router-link to="/Actualite" style="text-decoration: none;color: black;">
+          <p class="link">Actualité</p>
+        </router-link>
+        <router-link to="/Reparation">
+          <p class="link" style="text-decoration: none;color: black;">Reparation</p>
+        </router-link>
+
+        <router-link to="/Setting"><a href="authentification.html" target="_blank">
+            <p> <i class="far fa-user"></i> </p>
+          </a></router-link>
+      </div>
+    </nav>
+
+    <router-view></router-view>
+  </div>
+
+  <!-- home template component -->
+  <script type="text/x-template" id="actualite">
+      <div class="home-container">
+      <div class="deb" style="background: gray;">
+        <div class="dakhel" style="margin-left:65vh">
+          <h1 style="color:white">c'est la ou tout a commencer</h1><div class="zz" style="margin-right:30px;background:white">
+           <div><h3 style="margin-right:40vh">Steve Jobs présente, après des mois de rumeurs et de spéculations, le tout premier iPhone le 9 janvier 2007 . Rétroactivement appelé « iPhone 2G », il est lancé aux États-Unis le 29 juin 2007 , avant d'être commercialisé dans quelques pays d'Europe à la fin de cette même année.</h3></div>
+          <img style="margin-left:500px" id="image" src="https://static.fnac-static.com/multimedia/Images/FR/NR/eb/f5/9a/10155499/1540-1/tsp20180810153141/APPLE-IPHONE-1.jpg" alt=""> </div><br>
+        </div>
+      </div>
+          <div class="contain" >
+        <div class="carta">
+          <div class="devant">
+           <h1>Actualités sur les iphones</h1>
+          </div">
+          <div class="der">
+            <button type="button" class="btn btn-danger" style="margin:30px;padding:10px;margin-left:125px" ><a href="#ip">voir plus</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="containt">
+        <div class="cartat">
+          <div class="devantt">
+           <h1>Actualités sur les ipad</h1>
+          </div>
+          <div class="dert">
+            <button class="button"type="button" class="btn btn-danger" style="margin:30px;padding:10px;margin-left:125px" ><a href="#tab">Voir plus</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="containtt">
+        <div class="cartatt">
+          <div class="devanttt">
+           <h1>Actualités sur les accessoire et appli</h1>
+          </div>
+          <div class="dertt">
+            <button type="button" class="btn btn-danger" style="margin:30px;padding:10px;margin-left:125px" ><a href="#acc">Voir plus</button>
+          </div>  
+        </div>
+      
+      
+          </div>
+          <a name="ip">
+          <div class="iphone" style="margin-top:250px"><h1 style="margin-left:60px;">Iphone 13 : <i><hr></i></h1>
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                 <h5> Après presque un an de rumeurs et de fuites, l'iPhone 13 a été officialisé lors d'un événement virtuel mardi 14 septembre. Au menu, quatre nouveaux modèles : l'iPhone 13, le 13 Mini, le 13 Pro et le 13 Pro Max. Les nouveaux téléphones exécutent iOS 15, sont dotés d'une plus grande batterie, d'un espace de stockage plus important, d'un nouveau SoC A15 Bionic, d'une encoche plus petite et d'une abondance de nouvelles fonctions côté photo/vidéo. Les modèles de base des iPhone 13 et 13 mini sont disponibles en cinq couleurs : rose, bleu, minuit (noir), lumière stellaire (blanc) et Product Red. Quant aux iPhone 13 Pro et 13 Pro Max, ils bénéficient d'une mise à niveau plus importante de l'équipement photo ainsi que d'un nouvel écran à taux de rafraîchissement élevé de 120 Hz.</h5>
+                </div>
+                <div class="col">
+                  <div class="card" style="width: 18rem;margin-left:150px;margin-top:0px">
+                    <img src="https://images.frandroid.com/wp-content/uploads/2021/09/apple-iphone-13-pro-frandroid-2021.png?fbclid=IwAR2GAkozmpi9SAR1GMYka3Q44876LZVwh6K6d3o7Z19iRo8LV_Ww8Mot4IA" class="card-img-top" alt="...">
+                    <h2>Iphone 13 pro max</h2>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  iPhone 13 et 13 mini : les caractéristiques
+</button><br>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">la fiche technique:</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>Écran OLED (Super Retina XDR) de 5,4 ou de 6,1 pouces (1080 x 2340 pixels ou 1170 x 2532 pixels)</li>
+           <li> Face ID</li>
+            <li>Puce A15 Bionic</li>
+            <li>iOS 15</li>
+            <li>128 Go, 256 Go ou 512 Go de stockage</li>
+           <li> Grand-angle (f/1,6) et ultra grand-angle (f/2,4) de 12 mégapixels</li>
+   <li>         Vidéo en Dolby Vision HDR jusqu'à 4K à 60fps</li>
+       <li>     Charge sans fil et compatible MagSafe</li>
+           <li> IP68 </li>
+           <Li> Compatible 5G</li>
+          <li>  Chargeur absent</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+      </div>
+    </div>
+  </div>
+</div> <br>
+<iframe width="727" height="409" src="https://www.youtube.com/embed/XKfgdkcIUxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+</a><br>
+          <a name="tab">
+            <div style="margin-left:50px">
+              <h1>Ipad mini : <i><hr></i></h1>
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                  <h5>  L'iPad Mini 5 (2019) de Apple est une tablette haut de gamme annoncée le 18 mars 2019. Il est équipé d'un écran de 7,9 pouces certifié P3, d'un SoC Apple A12 Bionic et est compatible avec l'Apple Pencil 1.
+                    aussi puissant et peut-etre plus qu'un ipad ordinnaire deja mis en vente et c'est deja un succes pour apple le geant americain a gerer son invontion de la gamme mini de l'ipad
+                  </h5>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;margin-left:150px;margin-top:0px">
+                      <img src="https://c2.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2019/04/apple-ipad-mini-5-2019-frandroid.png?resize=580,580" class="card-img-top" alt="...">
+                      <h2>Ipad mini 5</h2>
+                    </div>
+                  </div>
+                  </div>
+            </div>
+                </div>
+                        
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Ipad mini 5 caracteristique
+</button> <br>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">fiche technique</h5>
+        <button id="ibutt" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<iframe width="727" height="409" src="https://www.youtube.com/embed/gdeqbg8QFJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</a><br><br>
+<a name="acc">
+<div class="h1">
+<div><h1 style="margin-left:50px">Accesoire :<i><hr></i></h1></div>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      
+     <div class="itemess d-flex justify-content-evenly"><div class="card" style="width: 18rem;">
+        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MM2Y3?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1630507733000" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-text">
+            Fine, légère et facile à tenir en main, cette coque conçue par Apple révèle toute l’élégance de la finition colorée de l’iPhone 13 Pro, tout en vous offrant une protection supplémentaire.
+            
+            Fabriquée dans un mélange de polycarbonate optiquement transparent et de matériaux souples, elle épouse parfaitement la forme des boutons de l’iPhone. Un revêtement anti‑rayures a été appliqué aussi bien à l’extérieur qu’à l’intérieur. De plus, tous les matériaux et revêtements sont conçus pour résister au jaunissement.</h5>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MME73?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1632861342000s" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-text">Airpod 3e generation c'est les nouvelles Airpod de chez apple avec un nouveau designe avec  Égalisation adaptative
+            La musique est automatiquement ajustée pour s’adapter à la forme de votre oreille. Les microphones orientés vers l’intérieur détectent les sonorités qui vous parviennent, puis règlent les basses et moyennes fréquences pour que vous ne manquiez aucun détail dans aucun titre. </h5>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MHXH3?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1603835871000" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-text">
+            Avec le chargeur MagSafe, la recharge sans fil est une simple formalité. Grâce à l’ajustement parfait des aimants, votre iPhone 13, iPhone 13 Pro, iPhone 12 ou iPhone 12 Pro se connecte automatiquement au chargeur pour une recharge sans fil rapide à une puissance de 15 W maximum. </h5>
+        </div>
+      </div>
+    </div><br>
+    <iframe width="727" height="409" src="https://www.youtube.com/embed/6Ar0dTfSD6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  </div>
+  <footer><div style="background:gray;margin-top:30px" class="foot">
+    <div  style="text-align:center"> <h4 style="color:white">vous pouvez vous abooné pour recevoir toute les nouveautés de DZAIPHONE</h4> </div>
+    <div>
+      <label ><h4>E-Mail :</h4></label>
+      <input style="padding:-50px ;border-radius:10px" type="e-mail"placeholder="entrer votre e-mail"> <br>
+      <label ><h4>nom : </h4></label>
+      <input type="text" placeholder="entrer votre nom"style="padding:-50px ;border-radius:10px">
+      <button type="button" class="btn btn-secondary">S'abonner</button>
+    </div>
+  </div>
+
+  </footer>
+</div>
+
+
+</div>
+          </div>
+                 
+        </div>  
+      </div>
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+  <script src="https://unpkg.com/vue-cookies@1.5.12/vue-cookies.js"></script>
+  <script src="./assets/js/vue.js" type="text/javascript"></script>
+</body>
+
+</html>
